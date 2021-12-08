@@ -155,9 +155,8 @@ public class Solution {
             if (nums[j] != val) {
                 nums[i] = nums[j];
                 i++;
-                j++;
-            } else
-                j++;
+            }
+            j++;
         }
         return i;
     }
